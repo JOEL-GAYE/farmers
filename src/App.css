@@ -6,8 +6,7 @@
 }
 body{
   background: url(https://img.freepik.com/premium-photo/industrial-side-poultry-farming-with-large-modern-chicken-farm-facility-background-showcasing-business-meat-production_984126-12401.jpg);
-  width: 100%;
-  height: 100dvh;
+ 
   display: flex;
   align-items: center;
   justify-content: center;

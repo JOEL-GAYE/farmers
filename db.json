@@ -6,7 +6,7 @@
       "category": "Chicks",
       "price": 20,
       "description": "3 days old sasu F1 .",
-      "image": "../images/icons/ndogo.jpg"
+      "image": "./images/icons/ndogo.jpg"
     },
     {
       "id": "2",
@@ -92,6 +92,10 @@
     },
     {
       "id": "47c3",
+      "email": "joelgaye17@gmail.com"
+    },
+    {
+      "id": "9977",
       "email": "joelgaye17@gmail.com"
     }
   ],

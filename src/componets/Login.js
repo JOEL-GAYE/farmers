@@ -1,17 +1,17 @@
 import React, { useState } from "react";
-import { useNavigate } from 'react-router-dom'; // Import useNavigate hook
+import { useNavigate } from 'react-router-dom'; 
 
 function Login() {
     const [isLogin, setIsLogin] = useState(false);
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
-    const navigate = useNavigate(); // Initialize navigate function
+    const navigate = useNavigate(); 
 
     const handleLogin = (e) => {
         e.preventDefault();
         if (username === 'admin' && password === 'password123') {
             setIsLogin(true);
-            navigate('/home'); // Use navigate to go to the home page
+            navigate('/home'); 
             alert('Login successful');
         } else {
             alert('Invalid credentials');
