@@ -9,7 +9,7 @@ function Login() {
 
     const handleLogin = (e) => {
         e.preventDefault();
-        if (username === 'admin' && password === 'password123') {
+        if (username === 'admin' && password === '123') {
             setIsLogin(true);
             navigate('/home'); 
             alert('Login successful');
